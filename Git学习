@@ -42,7 +42,7 @@ $ git commit -m "add 3 files."
 一整套流程：
 # 1.新建一个本地文件
 # 2.修改之后要     sudo git add 文件
-# 3.向git进行提交  sudo git remote -m "注释说明"
+# 3.向git进行提交  sudo git commit -m "注释说明"
 # 3.接下来         sudo git push github/gitee master
 # 4.查看现在工作区的状态  sudo git status
 # 5.查看进行了哪些修改    sudo gir diff
