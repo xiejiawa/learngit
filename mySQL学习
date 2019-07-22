@@ -1,0 +1,9 @@
+#1.解决mysql中不能使用FULL OUTER JOIN情况：
+
+select * from  a LEFT JOIN b on a.name = b.name 
+union 
+select * from  b RIGHT JOIN b on a.name = b.name
+**c粗体**
+__粗体__
+*斜体*
+_斜体_
